@@ -1,5 +1,11 @@
 # Extrawest Flutter Sample Web App
 
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/extrawest/flutter_web_app/graphs/commit-activity)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
+![Maintaner](https://img.shields.io/badge/maintainer-extrawest.com-blue)
+![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
+![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)
+
 Flutter Sample Web App
 
 ## 1. Getting started
@@ -7,11 +13,11 @@ In order to use this template in your project, do the following step-by-step:
 
 **1. Clone this repo to your folder:**
 
-`git clone https://github.com/extrawest/*.git`
+`git clone https://github.com/extrawest/flutter_web_app.git`
 
 **2. Change directory to the previously cloned folder**
 
-`cd */`
+`cd flutter_web_app/`
 
 **3. Remove an existing .git folder**
 
@@ -23,7 +29,7 @@ In order to use this template in your project, do the following step-by-step:
 
 **5. Set remote url to your empty repository**
 
-`git remote set-url origin https://github.com/extrawest/*.git`
+`git remote set-url origin https://github.com/extrawest/flutter_web_app.git`
 
 **6. Add all files to git**
 
