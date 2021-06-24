@@ -1,0 +1,113 @@
+{
+  "data": [
+    {
+      "owner": {
+        "id": "0F8JIqi4zwvb77FGz6Wt",
+        "lastName": "Fiedler",
+        "firstName": "Heinz-Georg",
+        "email": "heinz-georg.fiedler@example.com",
+        "title": "mr",
+        "picture": "https://randomuser.me/api/portraits/men/81.jpg"
+      },
+      "id": "h6SMm2IrtKS2voz2tAOq",
+      "image": "https://img.dummyapi.io/photo-1568484730668-25478021de14.jpg",
+      "publishDate": "2020-04-13T06:06:18.751Z",
+      "text": "long-coated white dog",
+      "tags": [
+        "dog",
+        "animal",
+        "pet"
+      ],
+      "link": null,
+      "likes": 22
+    },
+    {
+      "owner": {
+        "id": "0F8JIqi4zwvb77FGz6Wt",
+        "lastName": "Fiedler",
+        "firstName": "Heinz-Georg",
+        "email": "heinz-georg.fiedler@example.com",
+        "title": "mr",
+        "picture": "https://randomuser.me/api/portraits/men/81.jpg"
+      },
+      "id": "2ePeAzIiGFRcZ4lAQsej",
+      "image": "https://img.dummyapi.io/photo-1585948010691-75fedc3061d2.jpg",
+      "publishDate": "2020-03-18T15:20:23.195Z",
+      "text": "Pekinezer brown and black long coated small dog",
+      "tags": [
+        "dog",
+        "animal",
+        "pet"
+      ],
+      "link": null,
+      "likes": 1
+    },
+    {
+      "owner": {
+        "id": "0F8JIqi4zwvb77FGz6Wt",
+        "lastName": "Fiedler",
+        "firstName": "Heinz-Georg",
+        "email": "heinz-georg.fiedler@example.com",
+        "title": "mr",
+        "picture": "https://randomuser.me/api/portraits/men/81.jpg"
+      },
+      "id": "pyMQqn8B7LIZLZ8rhgrx",
+      "image": "https://img.dummyapi.io/photo-1507543139012-85b5900144e4.jpg",
+      "publishDate": "2020-03-15T01:46:36.581Z",
+      "text": "Forgotten short-coat brown and white dog sitting near gray concrete wall during daytime",
+      "tags": [
+        "dog",
+        "animal",
+        "canine"
+      ],
+      "link": "https://www.behance.net/catvcarvalho",
+      "likes": 76
+    },
+    {
+      "owner": {
+        "id": "0F8JIqi4zwvb77FGz6Wt",
+        "lastName": "Fiedler",
+        "firstName": "Heinz-Georg",
+        "email": "heinz-georg.fiedler@example.com",
+        "title": "mr",
+        "picture": "https://randomuser.me/api/portraits/men/81.jpg"
+      },
+      "id": "kNNQSkb41pwrhbp1FEjP",
+      "image": "https://img.dummyapi.io/photo-1516693452408-b54cfce17899.jpg",
+      "publishDate": "2020-02-28T20:37:59.421Z",
+      "text": "@lilwaynethefrenchie nuff said. short-coated white puppy",
+      "tags": [
+        "dog",
+        "animal",
+        "pet"
+      ],
+      "link": null,
+      "likes": 86
+    },
+    {
+      "owner": {
+        "id": "0F8JIqi4zwvb77FGz6Wt",
+        "lastName": "Fiedler",
+        "firstName": "Heinz-Georg",
+        "email": "heinz-georg.fiedler@example.com",
+        "title": "mr",
+        "picture": "https://randomuser.me/api/portraits/men/81.jpg"
+      },
+      "id": "deitBPKyH8TzDkL1MvZP",
+      "image": "https://img.dummyapi.io/photo-1517423440428-a5a00ad493e8.jpg",
+      "publishDate": "2019-12-20T14:18:54.949Z",
+      "text": "Doggy with style. (instagram.com/toshi.dog/) black pug wearing striped apparel",
+      "tags": [
+        "dog",
+        "animal",
+        "pet"
+      ],
+      "link": "http://charlesdeluvio.com",
+      "likes": 973
+    }
+  ],
+  "total": 5,
+  "page": 0,
+  "limit": 10,
+  "offset": 0
+}

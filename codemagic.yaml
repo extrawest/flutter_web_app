@@ -1,0 +1,31 @@
+workflows:
+  publish-to-firebase:
+    name: Publish to Firebase hosting
+    max_build_duration: 60
+    environment:
+      vars:
+        FIREBASE_TOKEN: Encrypted(Z0FBQUFBQmdnU0U2cjA1cWlqdHRkVnRDSWo0ckxZdnZmRjdaRDNxRjhTbXFmZ1FvaExMZjNicWpCYmp6MVFKaFhHWjZUelhJQk0yRF9FNU10a0l4VS16cDFyS1QzNTRuMWtmYTlUQWNtdURDWlV5Z0k1d3pvZ2dfVzhEd0ZuM3FwYW9hWTE3VVJFbkhudFhPWFpGU05zaFotcWcwTG5pczlxdmhPNERHS3I2ekxRX2d6VDR5U1g1TkdiaW9uaHYxRzJTdVVDQ0MtRXFMUEl1ZkNIZUlNU25sSTFkV1cxYXVlZz09)
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: '*master*'
+          include: true
+          source: true
+    scripts:
+      - flutter packages pub get
+      - flutter config --enable-web
+      - name: Build Web
+        script: |
+          flutter build web --release
+          cd build/web
+          7z a -r ../web.zip ./*
+      - name: Publish to Firebase Hosting
+        script: |
+          firebase deploy --token "$FIREBASE_TOKEN"
+    artifacts:
+      - build/web.zip
+      - flutter_drive.log
